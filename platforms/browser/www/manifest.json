@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "TimeShare",
+  "short_name": "TimeShare",
+  "version": "io.cordova.hellocordova",
+  "description": "An application that allows you to track your timetable and share it with your friends.",
+  "author": "willtree8",
+  "icons": [],
+  "start_url": "index.html"
+}
