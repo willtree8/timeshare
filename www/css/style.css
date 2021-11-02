@@ -1,8 +1,8 @@
 /* Custom Stylesheet */
 
-* {
+/* {
   outline: 1px red solid;
-}
+}*/
 
 .icon-block {
   padding: 0 15px;
@@ -32,15 +32,20 @@ p {
   font-size: 12px;
   padding: 5px;
   color: white;
-  align-self: end;
+  align-self: center;
 }
 
 .center {
   display: flex;
   margin: auto;
   text-align: center;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  flex-direction: column;
+}
+
+#buttons {
+  display: flex;
   flex-direction: column;
 }
 
