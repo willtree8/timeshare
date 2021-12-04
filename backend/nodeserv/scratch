@@ -1,0 +1,18 @@
+Lesson:
+ / Period (int)
+ - Subject (str)
+ - Teacher (str)
+ - Room (Str)
+
+Day:
+ - Day Name (str)
+ - Period 1 -> 5 (lesson)
+
+Week:
+ - Week Name (str)
+ - Day 1 -> 5 (day)
+
+Block:
+ - Weeks (Week)
+
+I5AMZgyX8SWUtbQu

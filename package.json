@@ -25,5 +25,8 @@
       "browser",
       "android"
     ]
+  },
+  "dependencies": {
+    "mongodb": "^4.1.3"
   }
 }
