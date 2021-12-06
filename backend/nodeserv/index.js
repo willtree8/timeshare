@@ -1,11 +1,10 @@
 const { MongoClient } = require('mongodb');
 require('dotenv').config({ path: './config.env' });
 const uri = process.env.URI
-console.log(uri)
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // The database to use
-const dbName = "test";
+const dbName = "timetables";
 
 async function run() {
     try {
@@ -14,7 +13,7 @@ async function run() {
         const db = client.db(dbName);
         
         // Use the collection "people"
-        const col = db.collection("people");
+        const col = db.collection("days");
         
         // Construct a document                                                                                                                                                              
         let personDocument = {
