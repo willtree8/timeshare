@@ -1,5 +1,7 @@
 const { MongoClient } = require('mongodb');
-const uri = "mongodb+srv://willtree8:I5AMZgyX8SWUtbQu@cluster0.xqec2.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+require('dotenv').config({ path: './config.env' });
+const uri = process.env.URI
+console.log(uri)
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // The database to use
