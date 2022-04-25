@@ -44,7 +44,7 @@ p {
   flex-direction: column;
 }
 
-#buttons {
+.buttons {
   display: flex;
   flex-direction: column;
 }
@@ -59,4 +59,9 @@ p {
   margin: 10px;
   text-align: center;
   font-size: 14px;
+}
+
+.checkbox {
+  height: 25px;
+  width: 25px;
 }

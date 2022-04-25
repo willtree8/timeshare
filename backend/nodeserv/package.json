@@ -1,0 +1,15 @@
+{
+  "name": "ts_backend",
+  "version": "1.0.0",
+  "description": "timeshare backend server",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.1"
+  }
+}

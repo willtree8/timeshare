@@ -1,1 +1,5 @@
 backend/nodeserv/config.env
+node_modules
+backend/nodeserv/node_modules
+backend/express/node_modules
+carbon/
