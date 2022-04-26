@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>timetable config</title>
-	<link href="css/style.css" type="text/css" rel="stylesheet"/>
-</head>
+	<head>
+		<title>timetable config</title>
+		<link href="../css/style.css" type="text/css" rel="stylesheet"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
+	</head>
 <body>
-	<div>
+	<div class="vertical-flex center">
 		<form>
-			<button type="button" class="collapsible">Yes</button>
-			<input type="submit" value="No">
-		</form>
-	</div>
-	
-	<div>
-		<form>
+			<label>Advanced Config?</label>
+			<button class="button" type="button" class="collapsible">Yes</button>
+			<input class="button" type="submit" value="No">
 			<label>Number of weeks?</label>
 			<input type="range" min="13" max="25" value="16" class="slider" id="userAge">
 			<label>Days per week?</label>
