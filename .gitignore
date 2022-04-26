@@ -3,3 +3,6 @@ node_modules
 backend/nodeserv/node_modules
 backend/express/node_modules
 carbon/
+package-lock.json
+backend/express_serv/package-lock.json
+backend/nodeserv/package-lock.json
